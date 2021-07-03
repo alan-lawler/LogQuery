@@ -1,0 +1,85 @@
+* {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*border:0;*/
+    box-sizing: border-box;
+}
+
+img[src*="#thumbnail"] {
+    display:inline-block;
+}
+
+#action,
+#category,
+#dates,
+#dest,
+#dest_port,
+#country,
+#source{
+    /*margin: auto;*/
+    padding: 10px;
+    margin-left: 10px;
+    /*display: inline-block;*/
+}
+
+#submit-button-ip,
+#submit-button {
+    /*color: #00205B;*/
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 75px;
+    margin-top: 20px;
+    /*width: %;*/
+    display: inline-block;
+}
+
+/*#submit-button:hover {*/
+/*    color: red;*/
+/*}*/
+
+.menu {
+    float: left;
+    margin: 20px;
+    /*border: 1px solid #333;*/
+    padding: 5px;
+    /*background: #00205B;*/
+    color: black;
+}
+
+.menu h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.menu h2 {
+    margin: 10px;
+}
+
+#ip_lookup {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.threat-container {
+    max-width: 960px;
+    margin: auto;
+    padding: 15px 15px;
+}
+
+.threat-container h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.threat-container a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#map {
+    margin: auto;
+}
